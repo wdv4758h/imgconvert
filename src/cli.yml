@@ -1,0 +1,17 @@
+name: Image Converter
+version: 0.1
+about: Convert image into other form
+author: Chiu-Hsiang Hsu <wdv4758h@gmail.com>
+
+args:
+    - IMAGE:
+        help: input image
+        required: true
+    - SIZE:
+        help: image size e.g. 800x600
+        short: s
+        long: size
+        takes_value: true
+    - OUT:
+        help: output file
+        required: true
